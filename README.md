@@ -15,9 +15,9 @@ to get data:
 UserDefaults.standard.value(forKey: "email")
 
 # 2-keychain
-why?
+* why?
  The keychain is a secure and encrypted storage place for sensitive data
-how? 
+ * how? 
 to set:
         keychain.set(textField.text ?? "", forKey: "email")
 to get:
@@ -25,9 +25,9 @@ to get:
 
 
 # 3-coreData
-why?
+* why?
 to save your application's permanent data for offline use, to cache temporary data, and to add undo functionality to your app on a single device
-how?
+* how?
 to add data :
         dataManager?.addFavoritesItem(item: RecipeItemModel(id: "1",name: "Hany"))
 to get data :
