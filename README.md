@@ -9,18 +9,18 @@ Five Type To Save Data Local
 * why ?
 to store app settings or user preferences. UserDefaults lets you store key-value pairs, where a key is always a String and value can be one of the following data types: Data, String, Number, Date, Array or Dictionary.
 * how ?
-to set data :
+* to set data :
 UserDefaults.standard.setValue(textField.text, forKey: "email")
-to get data:
+* to get data:
 UserDefaults.standard.value(forKey: "email")
 
 # 2-keychain
 * why?
  The keychain is a secure and encrypted storage place for sensitive data
  * how? 
-to set:
+* to set:
         keychain.set(textField.text ?? "", forKey: "email")
-to get:
+* to get:
         keychain.get("email")
 
 
@@ -28,9 +28,9 @@ to get:
 * why?
 to save your application's permanent data for offline use, to cache temporary data, and to add undo functionality to your app on a single device
 * how?
-to add data :
+* to add data :
         dataManager?.addFavoritesItem(item: RecipeItemModel(id: "1",name: "Hany"))
-to get data :
+* to get data :
       dataManager?.fetchFavoritesListList()[0].name 
       
 # 4-SQLITE
