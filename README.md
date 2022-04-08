@@ -6,9 +6,9 @@ Five Type To Save Data Local
 - SQLite
 - Realm
 # 1-UserDefault
-why ?
+*why ?
 to store app settings or user preferences. UserDefaults lets you store key-value pairs, where a key is always a String and value can be one of the following data types: Data, String, Number, Date, Array or Dictionary.
-how ?
+*how ?
 to set data :
 UserDefaults.standard.setValue(textField.text, forKey: "email")
 to get data:
