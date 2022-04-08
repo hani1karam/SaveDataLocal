@@ -3,29 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D7328F402800CA8D006AE9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F3F2800CA8D006AE9EA /* AppDelegate.swift */; };
-		D7328F422800CA8D006AE9EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F412800CA8D006AE9EA /* SceneDelegate.swift */; };
 		D7328F442800CA8D006AE9EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F432800CA8D006AE9EA /* ViewController.swift */; };
 		D7328F472800CA8E006AE9EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7328F452800CA8E006AE9EA /* Main.storyboard */; };
 		D7328F4A2800CA8E006AE9EA /* SaveDataLocal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7328F482800CA8E006AE9EA /* SaveDataLocal.xcdatamodeld */; };
 		D7328F4C2800CA90006AE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7328F4B2800CA90006AE9EA /* Assets.xcassets */; };
 		D7328F4F2800CA90006AE9EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7328F4D2800CA90006AE9EA /* LaunchScreen.storyboard */; };
+		D7328F592800D242006AE9EA /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7328F582800D242006AE9EA /* KeychainSwift */; };
+		D7328F5C2800D258006AE9EA /* KeyChainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F5B2800D258006AE9EA /* KeyChainVC.swift */; };
+		D7328F612800D507006AE9EA /* DatabaseManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F602800D507006AE9EA /* DatabaseManagerProtocol.swift */; };
+		D7328F652800D51D006AE9EA /* RecipeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F642800D51D006AE9EA /* RecipeItemModel.swift */; };
+		D7328F682800D52D006AE9EA /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F672800D52D006AE9EA /* CoreDataHelper.swift */; };
+		D7328F6B2800D589006AE9EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F6A2800D589006AE9EA /* Model.swift */; };
+		D7328F6E2800D5CA006AE9EA /* DatabaseHelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F6D2800D5CA006AE9EA /* DatabaseHelperProtocol.swift */; };
+		D7328F732800D63B006AE9EA /* CoreDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F722800D63B006AE9EA /* CoreDataVC.swift */; };
+		D7328F782800D893006AE9EA /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F772800D893006AE9EA /* DataBaseManager.swift */; };
+		D7328F7C2800D8E6006AE9EA /* SQLVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7328F7B2800D8E6006AE9EA /* SQLVC.swift */; };
+		D75022012800F0E400075CFA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D75022002800F0E400075CFA /* RealmSwift */; };
+		D75022032800F0E400075CFA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D75022022800F0E400075CFA /* Realm */; };
+		D75022062800F14000075CFA /* RealmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75022052800F14000075CFA /* RealmVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7328F3C2800CA8D006AE9EA /* SaveDataLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveDataLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7328F3F2800CA8D006AE9EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7328F412800CA8D006AE9EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D7328F432800CA8D006AE9EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7328F462800CA8E006AE9EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7328F492800CA8E006AE9EA /* SaveDataLocal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaveDataLocal.xcdatamodel; sourceTree = "<group>"; };
 		D7328F4B2800CA90006AE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7328F4E2800CA90006AE9EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7328F502800CA90006AE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7328F5B2800D258006AE9EA /* KeyChainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainVC.swift; sourceTree = "<group>"; };
+		D7328F602800D507006AE9EA /* DatabaseManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManagerProtocol.swift; sourceTree = "<group>"; };
+		D7328F642800D51D006AE9EA /* RecipeItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItemModel.swift; sourceTree = "<group>"; };
+		D7328F672800D52D006AE9EA /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		D7328F6A2800D589006AE9EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D7328F6D2800D5CA006AE9EA /* DatabaseHelperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelperProtocol.swift; sourceTree = "<group>"; };
+		D7328F722800D63B006AE9EA /* CoreDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataVC.swift; sourceTree = "<group>"; };
+		D7328F772800D893006AE9EA /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		D7328F7B2800D8E6006AE9EA /* SQLVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLVC.swift; sourceTree = "<group>"; };
+		D75022052800F14000075CFA /* RealmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75022032800F0E400075CFA /* Realm in Frameworks */,
+				D75022012800F0E400075CFA /* RealmSwift in Frameworks */,
+				D7328F592800D242006AE9EA /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +82,57 @@
 		D7328F3E2800CA8D006AE9EA /* SaveDataLocal */ = {
 			isa = PBXGroup;
 			children = (
-				D7328F3F2800CA8D006AE9EA /* AppDelegate.swift */,
-				D7328F412800CA8D006AE9EA /* SceneDelegate.swift */,
+				D7328F762800D88A006AE9EA /* SQL */,
+				D7328F712800D610006AE9EA /* Resoucres */,
+				D7328F5F2800D4F7006AE9EA /* CoreData */,
+				D7328F702800D5FD006AE9EA /* Core */,
 				D7328F432800CA8D006AE9EA /* ViewController.swift */,
+				D7328F722800D63B006AE9EA /* CoreDataVC.swift */,
+				D7328F5B2800D258006AE9EA /* KeyChainVC.swift */,
+				D7328F7B2800D8E6006AE9EA /* SQLVC.swift */,
+				D75022052800F14000075CFA /* RealmVC.swift */,
 				D7328F452800CA8E006AE9EA /* Main.storyboard */,
-				D7328F4B2800CA90006AE9EA /* Assets.xcassets */,
-				D7328F4D2800CA90006AE9EA /* LaunchScreen.storyboard */,
 				D7328F502800CA90006AE9EA /* Info.plist */,
 				D7328F482800CA8E006AE9EA /* SaveDataLocal.xcdatamodeld */,
 			);
 			path = SaveDataLocal;
+			sourceTree = "<group>";
+		};
+		D7328F5F2800D4F7006AE9EA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D7328F602800D507006AE9EA /* DatabaseManagerProtocol.swift */,
+				D7328F642800D51D006AE9EA /* RecipeItemModel.swift */,
+				D7328F672800D52D006AE9EA /* CoreDataHelper.swift */,
+				D7328F6D2800D5CA006AE9EA /* DatabaseHelperProtocol.swift */,
+				D7328F6A2800D589006AE9EA /* Model.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D7328F702800D5FD006AE9EA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D7328F3F2800CA8D006AE9EA /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D7328F712800D610006AE9EA /* Resoucres */ = {
+			isa = PBXGroup;
+			children = (
+				D7328F4B2800CA90006AE9EA /* Assets.xcassets */,
+				D7328F4D2800CA90006AE9EA /* LaunchScreen.storyboard */,
+			);
+			path = Resoucres;
+			sourceTree = "<group>";
+		};
+		D7328F762800D88A006AE9EA /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				D7328F772800D893006AE9EA /* DataBaseManager.swift */,
+			);
+			path = SQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +151,11 @@
 			dependencies = (
 			);
 			name = SaveDataLocal;
+			packageProductDependencies = (
+				D7328F582800D242006AE9EA /* KeychainSwift */,
+				D75022002800F0E400075CFA /* RealmSwift */,
+				D75022022800F0E400075CFA /* Realm */,
+			);
 			productName = SaveDataLocal;
 			productReference = D7328F3C2800CA8D006AE9EA /* SaveDataLocal.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +183,10 @@
 				Base,
 			);
 			mainGroup = D7328F332800CA8D006AE9EA;
+			packageReferences = (
+				D7328F572800D242006AE9EA /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				D75021FF2800F0E400075CFA /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = D7328F3D2800CA8D006AE9EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,10 +214,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7328F6E2800D5CA006AE9EA /* DatabaseHelperProtocol.swift in Sources */,
+				D7328F732800D63B006AE9EA /* CoreDataVC.swift in Sources */,
+				D7328F5C2800D258006AE9EA /* KeyChainVC.swift in Sources */,
+				D7328F7C2800D8E6006AE9EA /* SQLVC.swift in Sources */,
 				D7328F442800CA8D006AE9EA /* ViewController.swift in Sources */,
+				D7328F652800D51D006AE9EA /* RecipeItemModel.swift in Sources */,
+				D7328F682800D52D006AE9EA /* CoreDataHelper.swift in Sources */,
+				D7328F612800D507006AE9EA /* DatabaseManagerProtocol.swift in Sources */,
+				D75022062800F14000075CFA /* RealmVC.swift in Sources */,
 				D7328F402800CA8D006AE9EA /* AppDelegate.swift in Sources */,
 				D7328F4A2800CA8E006AE9EA /* SaveDataLocal.xcdatamodeld in Sources */,
-				D7328F422800CA8D006AE9EA /* SceneDelegate.swift in Sources */,
+				D7328F6B2800D589006AE9EA /* Model.swift in Sources */,
+				D7328F782800D893006AE9EA /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +428,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7328F572800D242006AE9EA /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 19.0.0;
+			};
+		};
+		D75021FF2800F0E400075CFA /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7328F582800D242006AE9EA /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7328F572800D242006AE9EA /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		D75022002800F0E400075CFA /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D75021FF2800F0E400075CFA /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		D75022022800F0E400075CFA /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D75021FF2800F0E400075CFA /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D7328F482800CA8E006AE9EA /* SaveDataLocal.xcdatamodeld */ = {
