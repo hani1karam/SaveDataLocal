@@ -14,7 +14,7 @@ UserDefaults.standard.setValue(textField.text, forKey: "email")
 * to get data:
 UserDefaults.standard.value(forKey: "email")
 
-# 2-keychain
+# 2-Keychain
 * why?
  The keychain is a secure and encrypted storage place for sensitive data
  * how? 
@@ -24,7 +24,7 @@ UserDefaults.standard.value(forKey: "email")
         keychain.get("email")
 
 
-# 3-coreData
+# 3-CoreData
 * why?
 to save your application's permanent data for offline use, to cache temporary data, and to add undo functionality to your app on a single device
 * how?
